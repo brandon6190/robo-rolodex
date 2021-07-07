@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <h1>Monsters Rolodex</h1>
-      <p>something to test</p>
     </div>
   );
 }
