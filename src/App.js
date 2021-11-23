@@ -1,9 +1,14 @@
+import React from 'react';
 import './App.css';
+
+import Title from './components/title.component';
+import Monsters from './components/monsters.component';
 
 function App() {
   return (
     <div className="App">
-      <h1>Monsters Rolodex</h1>
+      <Title />
+      <Monsters />
     </div>
   );
 }
