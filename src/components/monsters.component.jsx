@@ -1,5 +1,5 @@
 import React from 'react';
-// import SearchInput from './searchInput';
+import SearchField from './searchField.component';
 import MonsterList from './monsterList.component';
 
 class Monsters extends React.Component {
@@ -11,7 +11,7 @@ class Monsters extends React.Component {
         inputValue: '',
       };
   
-      this.searchInputChange = this.searchInputChange.bind(this);
+      this.searchFieldChange = this.searchFieldChange.bind(this);
     }
   
     componentDidMount() {
@@ -20,16 +20,15 @@ class Monsters extends React.Component {
         .then(users => this.setState({ monsters: users }));
     }
   
-    searchInputChange(event) {
+    searchFieldChange(event) {
       this.setState({ inputValue: event.target.value });
     }
   
     render() {
       return (
         <div className='monsters-container'>
-  
-          <input className='monster-search' type="text" placeholder="Search for monster" onChange={this.searchInputChange} />
-          
+
+          <SearchField changeHanlder={this.searchFieldChange} />          
           <MonsterList monsters={this.state.monsters} />
   
         </div>
