@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/robo-rolodex/static/css/main.c16f7234.chunk.css",
+    "main.js": "/robo-rolodex/static/js/main.7f4d1c98.chunk.js",
+    "main.js.map": "/robo-rolodex/static/js/main.7f4d1c98.chunk.js.map",
+    "runtime-main.js": "/robo-rolodex/static/js/runtime-main.bd657eb7.js",
+    "runtime-main.js.map": "/robo-rolodex/static/js/runtime-main.bd657eb7.js.map",
+    "static/js/2.4a72854c.chunk.js": "/robo-rolodex/static/js/2.4a72854c.chunk.js",
+    "static/js/2.4a72854c.chunk.js.map": "/robo-rolodex/static/js/2.4a72854c.chunk.js.map",
+    "static/js/3.007197a0.chunk.js": "/robo-rolodex/static/js/3.007197a0.chunk.js",
+    "static/js/3.007197a0.chunk.js.map": "/robo-rolodex/static/js/3.007197a0.chunk.js.map",
+    "index.html": "/robo-rolodex/index.html",
+    "static/css/main.c16f7234.chunk.css.map": "/robo-rolodex/static/css/main.c16f7234.chunk.css.map",
+    "static/js/2.4a72854c.chunk.js.LICENSE.txt": "/robo-rolodex/static/js/2.4a72854c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd657eb7.js",
+    "static/js/2.4a72854c.chunk.js",
+    "static/css/main.c16f7234.chunk.css",
+    "static/js/main.7f4d1c98.chunk.js"
+  ]
+}
