@@ -16,15 +16,3 @@ h1 {
   font-size: 72px;
   color: #0ccac4;
 }
-
-.monsters-container {
-  border: 1px solid red;
-}
-
-.monster-search {
-  border: 1px solid blue;
-}
-
-.monster-card {
-  border: 1px solid green;
-}

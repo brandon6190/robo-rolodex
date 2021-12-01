@@ -1,8 +1,9 @@
 import React from 'react';
 
 function Title(props) {
-    const element = React.createElement('h1',{},'Monsters Rolodex!');
-    return element;
+    return (
+        <h1>Robo Rolodex!</h1>
+    );
 }
 
 export default Title;

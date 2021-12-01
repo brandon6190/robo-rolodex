@@ -23,7 +23,6 @@ class RealTimeSearch extends React.Component {
     }
   
     render() {
-      console.log('render() called, cause by user input');
       const { monsters, inputValue } = this.state;
 
       const filteredMonsters = monsters.filter(monster => (

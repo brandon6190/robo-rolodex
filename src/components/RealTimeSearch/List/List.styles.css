@@ -4,6 +4,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    border: 1.5px solid forestgreen;
+    border: none;
 }
   
