@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Title from './components/title.component';
-import Monsters from './components/monsters.component';
+import Title from './components/Title/Title.component';
+import RealTimeSearch from './components/RealTimeSearch/RealTimeSearch.container';
 
 function App() {
   return (
     <div className="App">
       <Title />
-      <Monsters />
+      <RealTimeSearch />
     </div>
   );
 }
