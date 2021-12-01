@@ -3,10 +3,10 @@ import './List.styles.css';
 
 import Card from './Card/Card.component';
 
-function List(props) {
+function List({monsters}) {
     return (
         <div className="list">
-            {props.monsters.map(monster => (
+            {monsters.map(monster => (
                 <Card key={monster.id} monster={monster} />
             ))}
         </div>

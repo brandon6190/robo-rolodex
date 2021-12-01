@@ -2,13 +2,13 @@ import React from 'react';
 
 import './SearchField.styles.css';
 
-function SearchField(props) {
+function SearchField({changeHanlder}) {
     return (
         <input 
             className='search-field' 
             type="search" 
             placeholder="Search for Monster" 
-            onChange={props.changeHanlder}
+            onChange={changeHanlder}
         />
     )
 }
